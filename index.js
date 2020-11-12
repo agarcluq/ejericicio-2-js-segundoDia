@@ -1,6 +1,149 @@
 const listParent = document.querySelector(".color-list");
 const firstChild = listParent.firstChild.nextSibling;
+//hijo 9
+let child9=document.createElement('li'); //creo el li
+//div 1 hijo 9
+let s_child9=document.createElement('div') //creo el div
+let t_child9=document.createTextNode('color:silver'); //creo el texto
+child9.appendChild(s_child9); //añado el div al li
+s_child9.appendChild(t_child9); //añado el texto al div
+s_child9.classList.add("color-name") //añado la clase al div
+
+//div 2 hijo 9
+let s_child9b=document.createElement('div') //creo el div
+let t_child9b=document.createTextNode('muestra'); //creo el texto
+child9.appendChild(s_child9b); //añado el div al li
+s_child9b.appendChild(t_child9b); //añado el texto al div
+s_child9b.classList.add("color-show") //añado la clase al div
+
+//div 3 hijo 9
+let s_child9c=document.createElement('button') //creo el div
+let t_child9c=document.createTextNode('Next item color'); //creo el texto
+child9.appendChild(s_child9c); //añado el div al li
+s_child9c.appendChild(t_child9c); //añado el texto al div
+s_child9c.classList.add("color-set") //añado la clase al div
+
+//div 4 hijo 9
+let s_child9d=document.createElement('button') //creo el div
+let t_child9d=document.createTextNode('Page color'); //creo el texto
+child9.appendChild(s_child9d); //añado el div al li
+s_child9d.appendChild(t_child9d); //añado el texto al div
+s_child9d.classList.add("color-set") //añado la clase al div
+
+//union al padre y crear clase li
+child9.classList.add("color-item--odd") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child9) //uno el li a su padre ul
+
+////////
+
+//hijo 8
+let child8=document.createElement('li'); //creo el li
+//div 1 hijo 8
+let s_child8=document.createElement('div') //creo el div
+let t_child8=document.createTextNode('color:green'); //creo el texto
+child8.appendChild(s_child8); //añado el div al li
+s_child8.appendChild(t_child8); //añado el texto al div
+s_child8.classList.add("color-name") //añado la clase al div
+
+//div 2 hijo 8
+let s_child8b=document.createElement('div') //creo el div
+let t_child8b=document.createTextNode('muestra'); //creo el texto
+child8.appendChild(s_child8b); //añado el div al li
+s_child8b.appendChild(t_child8b); //añado el texto al div
+s_child8b.classList.add("color-show") //añado la clase al div
+
+//div 3 hijo 8
+let s_child8c=document.createElement('button') //creo el div
+let t_child8c=document.createTextNode('Next item color'); //creo el texto
+child8.appendChild(s_child8c); //añado el div al li
+s_child8c.appendChild(t_child8c); //añado el texto al div
+s_child8c.classList.add("color-set") //añado la clase al div
+
+//div 4 hijo 8
+let s_child8d=document.createElement('button') //creo el div
+let t_child8d=document.createTextNode('Page color'); //creo el texto
+child8.appendChild(s_child8d); //añado el div al li
+s_child8d.appendChild(t_child8d); //añado el texto al div
+s_child8d.classList.add("color-set") //añado la clase al div
+
+//union al padre y crear clase li
+child8.classList.add("color-item") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child8) //uno el li a su padre ul
+
+////////////////
+
+//hijo 7
+let child7=document.createElement('li'); //creo el li
+//div 1 hijo 7
+let s_child7=document.createElement('div') //creo el div
+let t_child7=document.createTextNode('color:pink'); //creo el texto
+child7.appendChild(s_child7); //añado el div al li
+s_child7.appendChild(t_child7); //añado el texto al div
+s_child7.classList.add("color-name") //añado la clase al div
+
+//div 2 hijo 7
+let s_child7b=document.createElement('div') //creo el div
+let t_child7b=document.createTextNode('muestra'); //creo el texto
+child7.appendChild(s_child7b); //añado el div al li
+s_child7b.appendChild(t_child7b); //añado el texto al div
+s_child7b.classList.add("color-show") //añado la clase al div
+
+//div 3 hijo 7
+let s_child7c=document.createElement('button') //creo el div
+let t_child7c=document.createTextNode('Next item color'); //creo el texto
+child7.appendChild(s_child7c); //añado el div al li
+s_child7c.appendChild(t_child7c); //añado el texto al div
+s_child7c.classList.add("color-set") //añado la clase al div
+
+//div 4 hijo 7
+let s_child7d=document.createElement('button') //creo el div
+let t_child7d=document.createTextNode('Page color'); //creo el texto
+child7.appendChild(s_child7d); //añado el div al li
+s_child7d.appendChild(t_child7d); //añado el texto al div
+s_child7d.classList.add("color-set") //añado la clase al div
+
+//union al padre y crear clase li
+child7.classList.add("color-item--odd") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child7) //uno el li a su padre ul
+
 ////////////////////////
+
+//hijo 6
+let child6=document.createElement('li'); //creo el li
+//div 1 hijo 6
+let s_child6=document.createElement('div') //creo el div
+let t_child6=document.createTextNode('color:orchild'); //creo el texto
+child6.appendChild(s_child6); //añado el div al li
+s_child6.appendChild(t_child6); //añado el texto al div
+s_child6.classList.add("color-name") //añado la clase al div
+
+//div 2 hijo 6
+let s_child6b=document.createElement('div') //creo el div
+let t_child6b=document.createTextNode('muestra'); //creo el texto
+child6.appendChild(s_child6b); //añado el div al li
+s_child6b.appendChild(t_child6b); //añado el texto al div
+s_child6b.classList.add("color-show") //añado la clase al div
+
+//div 3 hijo 6
+let s_child6c=document.createElement('button') //creo el div
+let t_child6c=document.createTextNode('Next item color'); //creo el texto
+child6.appendChild(s_child6c); //añado el div al li
+s_child6c.appendChild(t_child6c); //añado el texto al div
+s_child6c.classList.add("color-set") //añado la clase al div
+
+//div 4 hijo 6
+let s_child6d=document.createElement('button') //creo el div
+let t_child6d=document.createTextNode('Page color'); //creo el texto
+child6.appendChild(s_child6d); //añado el div al li
+s_child6d.appendChild(t_child6d); //añado el texto al div
+s_child6d.classList.add("color-set") //añado la clase al div
+
+//union al padre y crear clase li
+child6.classList.add("color-item") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child6) //uno el li a su padre ul
+
+////////////////////////
+
 //hijo 5
 let child5=document.createElement('li'); //creo el li
 //div 1 hijo 5
@@ -32,8 +175,8 @@ s_child5d.appendChild(t_child5d); //añado el texto al div
 s_child5d.classList.add("color-set") //añado la clase al div
 
 //union al padre y crear clase li
-child5.classList.add("color-item") //añado la clase el li
-listParent.insertAdjacentElement('afterend',child5) //uno el li a su padre ul
+child5.classList.add("color-item--odd") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child5) //uno el li a su padre ul
 
 ////////////////////////
 
@@ -68,8 +211,8 @@ s_child4d.appendChild(t_child4d); //añado el texto al div
 s_child4d.classList.add("color-set") //añado la clase al div
 
 //union al padre y crear clase li
-child4.classList.add("color-item--odd") //añado la clase el li
-listParent.insertAdjacentElement('afterend',child4) //uno el li a su padre ul
+child4.classList.add("color-item") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child4) //uno el li a su padre ul
 
 ///////////////////////
 
@@ -104,8 +247,8 @@ s_child3d.appendChild(t_child3d); //añado el texto al div
 s_child3d.classList.add("color-set") //añado la clase al div
 
 //union al padre y crear clase li
-child3.classList.add("color-item") //añado la clase el li
-listParent.insertAdjacentElement('afterend',child3) //uno el li a su padre ul
+child3.classList.add("color-item--odd") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child3) //uno el li a su padre ul
 
 ////////////////////////
 //hijo 2
@@ -139,8 +282,8 @@ s_child2d.appendChild(t_child2d); //añado el texto al div
 s_child2d.classList.add("color-set") //añado la clase al div
 
 //union al padre y crear clase li
-child2.classList.add("color-item--odd") //añado la clase el li
-listParent.insertAdjacentElement('afterend',child2) //uno el li a su padre ul
+child2.classList.add("color-item") //añado la clase el li
+firstChild.insertAdjacentElement('afterend',child2) //uno el li a su padre ul
 
 
 
